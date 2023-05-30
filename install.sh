@@ -15,7 +15,7 @@ pip2 install colorama bs4 requests
 echo "Package alredy install - running tools"
 clear
 sleep 5
-https://github.com/Hax4us/xerosploit
+git clone https://github.com/h4ck3r0/Metasploit-termux
 cd Metasploit-termux
 chmod +x *
 clear
