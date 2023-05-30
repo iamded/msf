@@ -8,16 +8,13 @@ sleep 3
 pkg update -y
 pkg upgrade -y
 pkg install bash git -y
-pkg install python python2 -y
-pip install lolcat
-pip install requests colorama bs4
-pip2 install colorama bs4 requests
+pkg install wget curl openssh -y
+apt install ncurses-utils -y
 echo "Package alredy install - running tools"
 clear
 sleep 5
-git clone https://github.com/h4ck3r0/Metasploit-termux
-cd Metasploit-termux
-chmod +x *
+wget https://github.com/OnlineHacKing/TermuxTools-Installation/raw/main/Metasploit_Termux/metasploit.sh
+chmod +x metasploit.sh 
 clear
 sleep 3
-bash metasploit.sh
+./metasploit.sh
